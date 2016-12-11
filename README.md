@@ -1,4 +1,4 @@
-[alt tag](http://mikaelsyding.com/wp-content/uploads/2015/01/code-for-your-life.jpg?189db0)  
+![alt tag](http://mikaelsyding.com/wp-content/uploads/2015/01/code-for-your-life.jpg?189db0)  
 -Here we will learn all the data-structure and algorithms, we generally need.  
 Topics:  
 --------------------------------------------------------
