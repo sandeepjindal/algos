@@ -38,7 +38,7 @@ x & ~(x-1)
 
 ----------------------------------
 
-__built_in functions
+__built_in functions in gcc and g++
 
 __builtin_ctz -- trailing zereos
 __builtin_clz -- leading zereos
