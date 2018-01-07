@@ -17,16 +17,14 @@ current = current->next;
 }
 return count;
 }
-
-void reverse(struct ListNode *head){
-
-nexter = head->next;
+ListNode * nexter;
+void reverse(struct ListNode *head)
+{
 ListNode * prev = NULL;
-head->next = prev:
-head = head->next;
-
-reverse(nexter);
-
+nexter = head->next;
+head->next = prev;
+prev = head->next;
+// reverse(nexter);
 }
 
 int main(){
