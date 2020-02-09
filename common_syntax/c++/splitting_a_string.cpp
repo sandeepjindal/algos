@@ -1,4 +1,4 @@
-    vector<string> splitter(string s,char delim){
+    vector<string> splitter(string str,char delim){
         vector<string> out;
         std::stringstream ss(str);
         std::string s;
