@@ -1,0 +1,7 @@
+       map<string,bool> result_set;
+       
+       std::map<string,bool>::iterator it = result_set.begin();
+        
+        while(it != result_set.end()){
+            result = result+(it->first).length();
+        }
