@@ -8,4 +8,3 @@ install(TARGETS main)
 
 enable_testing()
 add_test(NAME main COMMAND main)
-© 2020 GitHub, Inc.
