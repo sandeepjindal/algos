@@ -5,6 +5,9 @@ int main() {
 
   std::bitset<5> b(5); 
   std::cout << b.to_ulong() << '\n';
+  
+    std::cout << b.test(2) << '\n'; // return true if 1.
+
 
   std::string alpha_bit_string = "aBaaBBaB"; 
   std::bitset<8> b1(alpha_bit_string, 0, alpha_bit_string.size(), 
