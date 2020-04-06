@@ -1,4 +1,6 @@
-  
+#include <bits/stdc++.h>
+#include<vector>
+
 int main() {
   int num = 7;
   cout << bitset<32>(num).count()<< endl;
@@ -11,6 +13,7 @@ int main() {
                       'a', 'B');         // [0,1,0,0,1,1,0,1] 
   
   std::cout << b1 << '\n'; 
+
 
 
 }
