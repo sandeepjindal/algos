@@ -13,7 +13,7 @@
 - Traversals  
 - Dynamic Programming  
 
-##STL resources:
+## STL resources:
 
 https://github.com/srcmake/cpp-stl-algorithms
 
