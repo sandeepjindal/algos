@@ -14,6 +14,7 @@
 - Dynamic Programming  
 
 ## STL resources:
+http://www.cplusplus.com/reference/algorithm/
 
 https://github.com/srcmake/cpp-stl-algorithms
 
