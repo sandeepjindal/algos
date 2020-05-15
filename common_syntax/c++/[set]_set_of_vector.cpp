@@ -1,3 +1,6 @@
+// hash for bool
+unordered_set<vector<int>,hash<vector<int>>> set_of_vectors_bool; 
+
 // hash required for unordered_set
 struct VectorHash {
     size_t operator()(const std::vector<int>& v) const {
