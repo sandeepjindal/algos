@@ -4,7 +4,7 @@ int main()
 		{"coconut", 10}, {"apple", 5}, {"peach", 30}, {"mango", 8}
 	};
 
-	multimap<int, string> mmap = invert(mymap);
+	multimap<int, string> mmap;
 
 	//multimap<int, int, greater<int> > mmap;
         
