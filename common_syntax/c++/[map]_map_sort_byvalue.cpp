@@ -14,7 +14,7 @@ int main()
         
 	
 	
-	for (auto=mmap.begin(); iter!=mmap.end(); iter++) 
+	for (auto iter =mmap.begin(); iter!=mmap.end(); iter++) 
 	{
 		cout << iter->second << ": " << iter->first << endl; 
 	}
