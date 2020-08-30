@@ -10,7 +10,7 @@
 //Min Heap
  priority_queue <int, vector<int>, greater<int> > pq;
 
-
+pair<int,int> pi;
 // this example is with pair 
 priority_queue<pi, vector<pi>, greater<pi> > pq; 
   
