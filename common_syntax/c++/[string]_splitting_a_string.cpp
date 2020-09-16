@@ -7,3 +7,8 @@
         }
         return out;
     }
+
+
+    istringstream str(s);
+    string word;
+    while(str >> word );
