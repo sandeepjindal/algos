@@ -1,3 +1,9 @@
+*Primitives*
+
+    std::auto -> var
+
+*Collections*
+
     std::vector -> j.u.ArrayList
     std::unordered_map -> j.u.HashMap
     std::map -> j.u.SortedMap
