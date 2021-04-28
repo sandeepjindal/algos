@@ -4,7 +4,7 @@
 
 *Collections*
 
-    std::vector -> j.u.ArrayList
+    std::vector<int> -> j.u.ArrayList<Integer>();
     std::unordered_map -> j.u.HashMap
     std::map -> j.u.SortedMap
     std::set -> j.u.LinkedHashSet
