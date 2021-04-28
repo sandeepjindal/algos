@@ -20,6 +20,17 @@
 ** j.u == java.util
 
 
+*Forloops*
+
+    for(auto x : intVals){
+    }
+      
+    =>
+    
+    for(val x : intVals){
+    }
+    
+
 Reference docs:
 
 https://www.tangiblesoftwaresolutions.com/java-and-cplus-equivalents.html
