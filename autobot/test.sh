@@ -1,3 +1,4 @@
+cd /Users/sjindal/algos/autobot
 git pull origin master
 now=$(date +"%T")
 touch $now
