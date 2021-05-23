@@ -1,5 +1,6 @@
 git pull origin master
-touch date +"%T"
+now=$(date +"%T")
+touch now
 git add .
 git commit -m "auto-commit"
 git push origin master
