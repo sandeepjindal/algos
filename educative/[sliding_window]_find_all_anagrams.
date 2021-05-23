@@ -1,0 +1,51 @@
+##https://www.educative.io/courses/grokking-the-coding-interview/YQ8N2OZq0VM
+
+using namespace std;
+
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+class StringAnagrams {
+ public:
+  static vector<int> findStringAnagrams(const string &str, const string &pattern) {
+    vector<int> resultIndices;
+    int winStart =0;
+    int m = pattern.size();
+    int n = str.size();
+    int matched =0;
+    unordered_map<char, int> frequency;
+
+    for(char c: pattern){
+      frequency[c]++;
+    }
+
+
+    for(int we =0; we <n ; ++we){
+        if(frequency.find(str[we]) != frequency.end()){
+          if(frequency[str[we]] == 1){
+            matched++;
+          }
+          frequency[str[we]]--;
+        }
+
+        if(matched == frequency.size()){
+          resultIndices.push_back(winStart);
+        }
+
+        if(we >= m-1){
+          if(frequency.find(str[winStart]) != frequency.end()){
+            if(frequency[str[winStart]] == 0){
+              matched--;
+            }
+            frequency[str[winStart]]++;
+          }
+          winStart++;
+        }
+    }
+
+
+    return resultIndices;
+  }
+};
