@@ -1,0 +1,15 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches:
+    - master
+    - release/*
+
+jobs:
+  print_message:
+    name: print_message
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo message
+        run: echo "Welcome to land of algorithms"
