@@ -7,6 +7,10 @@
             }
         });
 
+        //         Queue<Integer> pq = new PriorityQueue<>( (i1, i2) -> {
+       //     return i2-i1;
+       // });
+
         priorityQueue.offer(10);   
 
         priorityQueue.offer(5);
