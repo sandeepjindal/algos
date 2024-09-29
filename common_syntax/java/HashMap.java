@@ -12,3 +12,6 @@ frequency.merge("smily", 3, (v1, v2) -> (v1+v2)); // smily: 5
 
 frequence.computeIfAbsent("sandy", s-> s.length()) // sandy: 6
 
+
+Map<String, List<String>> stringOccurence = new HashMap<>();
+stringOccurence.computeIfAbsent(strs[i], (unused) -> new ArrayList<String>()).add(strs[i]);
