@@ -54,6 +54,9 @@ Else
 - Map/Set for O(1) time & O(n) space
 - Sort input for O(nlogn) time and O(1) space
 
+## Other resources:
+https://github.com/williamfiset/Algorithms/tree/master
+
 ## STL resources:
 http://www.cplusplus.com/reference/algorithm/
 
